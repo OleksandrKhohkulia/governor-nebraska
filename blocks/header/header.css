@@ -270,6 +270,6 @@ header nav .nav-tools {
 }
 
 .nav-sections li a {
-  background: none;
-  color: var(--text-color);
+  background-color: transparent !important;
+  color: var(--text-color) !important;
 }
