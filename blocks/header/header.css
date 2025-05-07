@@ -269,7 +269,7 @@ header nav .nav-tools {
   grid-area: tools;
 }
 
-.nav-sections li {
+.nav-sections li a {
   background: none;
   color: var(--text-color);
 }
