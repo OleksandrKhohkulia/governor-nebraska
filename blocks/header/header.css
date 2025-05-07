@@ -1,6 +1,6 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: #333;
   width: 100%;
   z-index: 2;
   position: fixed;
@@ -271,5 +271,4 @@ header nav .nav-tools {
 
 .nav-sections li a {
   background-color: transparent !important;
-  color: var(--text-color) !important;
 }
