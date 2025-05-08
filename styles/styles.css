@@ -263,8 +263,19 @@ main .section.highlight {
   align-items: center;
 }
 
-.aside-social-media{
+.aside-social-media .columns-img-col>p{
   display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.facebook-icon-facebook-posts{
+  display: flex;
+  align-items: center;
+}
+
+.aside-facebook-posts{
+  height: 540px;
 }
 
 .aside-social-media img{
