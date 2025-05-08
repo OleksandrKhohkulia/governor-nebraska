@@ -291,7 +291,7 @@ main .section.highlight {
 @media (width >= 900px){
   main{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     }
 
   .aside-governor-block img{
