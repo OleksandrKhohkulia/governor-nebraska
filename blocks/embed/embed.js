@@ -16,8 +16,10 @@ const loadScript = (url, callback, type) => {
   return script;
 };
 
+
 // padding-bottom: 56.25%;
 // height: 0;
+
 const getDefaultEmbed = (url) => `<div style="left: 0; width: 100%; position: relative; ">
     <iframe src="${url.href}" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen=""
       scrolling="no" allow="encrypted-media" title="Content from ${url.hostname}" loading="lazy">

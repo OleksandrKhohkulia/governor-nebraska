@@ -279,6 +279,10 @@ main .section.highlight {
   width: 35px;
 }
 
+.aside-embed> div {
+  height: 500px;
+}
+
 
 @media (width >= 900px){
   main{
