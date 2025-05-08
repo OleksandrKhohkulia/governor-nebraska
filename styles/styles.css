@@ -297,6 +297,8 @@ main .section.highlight {
   .aside-governor-block img{
     max-width: 260px;
   }
+}
 
-
+.cabinet-list img{
+  max-width: 300px !important;
 }
