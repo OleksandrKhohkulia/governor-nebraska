@@ -316,7 +316,7 @@ main .section.highlight {
   border-bottom: 1px  solid #adadad;
 }
 
-.section .columns-container .embed-container{
+.section.columns-container.embed-container{
   display: flex;
   flex-direction: column;
   gap: 10px;
