@@ -256,6 +256,13 @@ main .section.highlight {
   padding: 40px 0;
 }
 
+
+.aside-governor-block{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 @media (width >= 900px){
   main{
     display: flex;
@@ -265,4 +272,6 @@ main .section.highlight {
   .aside-governor-block img{
     max-width: 260px;
   }
+
+
 }
