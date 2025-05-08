@@ -259,7 +259,7 @@ main .section.highlight {
 
 .aside-governor-block{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
