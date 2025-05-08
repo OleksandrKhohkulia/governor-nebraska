@@ -307,6 +307,6 @@ main .section.highlight {
   border: 2px  solid #888888;  
 }
 
-.cabinet-list > div {
-  border: 1px  solid #888888;
+.cabinet-list > div > div {
+  border: 1px  solid #adadad;
 }
