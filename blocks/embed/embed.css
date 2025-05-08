@@ -60,3 +60,7 @@
   top: 4px;
   left: 7px;
 }
+
+.embed-wrapper{
+  background-color: rgba(255, 255, 255, 0.85);
+}
