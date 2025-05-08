@@ -303,6 +303,6 @@ main .section.highlight {
   max-width: 300px !important;
 }
 
-.cabinet-list > div {
+.cabinet-list  {
   border: 2px  solid #888888;  
 }
