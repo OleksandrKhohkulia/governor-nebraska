@@ -302,3 +302,7 @@ main .section.highlight {
 .cabinet-list img{
   max-width: 300px !important;
 }
+
+.cabinet-list > div {
+  border: 2px  solid #888888;  
+}
