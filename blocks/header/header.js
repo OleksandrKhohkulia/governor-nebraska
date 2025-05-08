@@ -180,8 +180,6 @@ export default async function decorate(block) {
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
   block.append(navWrapper);
-  const header = document.querySelector('.header block')
-  header.append(headerBlock)
-  block.append(header);
+  block.append(headerBlock);
 
 }
