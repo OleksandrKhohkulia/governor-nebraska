@@ -319,10 +319,17 @@ main .section.highlight {
 .section.columns-container.embed-container{
   display: flex;
   flex-direction: column;
-  gap: 10px 10px 0;
 }
 
 .section.columns-container.embed-container>div{
   width: 100%;
   padding: 10px;
+}
+
+.section.columns-container.embed-container>div:first-of-type{
+  margin-bottom: 10px;
+}
+
+.section.columns-container.embed-container>div:nth-of-type(3){
+  margin-top: 10px;
 }
