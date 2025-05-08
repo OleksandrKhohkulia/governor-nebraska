@@ -116,8 +116,11 @@ export default async function decorate(block) {
   // decorate nav DOM
   block.textContent = '';
   const nav = document.createElement('nav');
+  const headerBlock = document.createElement('div');
   nav.id = 'nav';
   while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
+  while(fragment.lastChild) headerBlock.append(fragment.lastChild);
+
 
   const classes = ['brand', 'sections', 'tools'];
   classes.forEach((c, i) => {
@@ -146,6 +149,14 @@ export default async function decorate(block) {
     });
   }
 
+  // header Block
+  const headerBlockClasses = ['brand', 'sections', 'tools'];
+  headerBlockClasses.forEach((c, i) => {
+    const headerBlockSection = headerBlock.children[i];
+    if (headerBlockSection) headerBlockSection.classList.add(`header-${c}`);
+  });
+
+
   // hamburger for mobile
   const hamburger = document.createElement('div');
   hamburger.classList.add('nav-hamburger');
@@ -160,9 +171,10 @@ export default async function decorate(block) {
   isDesktop.addEventListener('change', () => toggleMenu(nav, navSections, isDesktop.matches));
   
 
-  const headerBlock = document.createElement('div');
-  headerBlock.className = "header-block";
-  block.append(headerBlock);
+  // const headerBlock = document.createElement('div');
+  // headerBlock.className = "header-block";
+  // block.append(headerBlock);
+
 
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
