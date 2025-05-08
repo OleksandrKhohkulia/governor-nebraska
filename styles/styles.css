@@ -269,13 +269,9 @@ main .section.highlight {
   gap: 10px;
 }
 
-.facebook-icon-facebook-posts{
+#facebook-icon-facebook-posts{
   display: flex;
   align-items: center;
-}
-
-.aside-facebook-posts{
-  height: 540px;
 }
 
 .aside-social-media img{
