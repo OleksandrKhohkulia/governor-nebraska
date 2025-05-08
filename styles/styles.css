@@ -307,6 +307,10 @@ main .section.highlight {
   border: 2px  solid #888888;  
 }
 
-.cabinet-list > div > div {
-  border: 1px  solid #adadad;
+.cabinet-list > div > div:first-of-type {
+  border-right: 1px  solid #adadad;
+}
+
+.cabinet-list > div:not(:last-of-type){
+  border-bottom: 1px  solid #adadad;
 }
