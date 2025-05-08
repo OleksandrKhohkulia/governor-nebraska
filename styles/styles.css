@@ -319,5 +319,10 @@ main .section.highlight {
 .section.columns-container.embed-container{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 10px 10px 0;
+}
+
+.section.columns-container.embed-container>div{
+  width: 100%;
+  padding: 10px;
 }
