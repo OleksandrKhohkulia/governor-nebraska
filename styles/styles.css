@@ -263,6 +263,16 @@ main .section.highlight {
   align-items: center;
 }
 
+.aside-social-media{
+  display: flex;
+}
+
+.aside-social-media img{
+  height: 35px;
+  width: 35px;
+}
+
+
 @media (width >= 900px){
   main{
     display: flex;
