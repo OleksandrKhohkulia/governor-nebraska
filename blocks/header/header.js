@@ -158,11 +158,12 @@ export default async function decorate(block) {
   // prevent mobile nav behavior on window resize
   toggleMenu(nav, navSections, isDesktop.matches);
   isDesktop.addEventListener('change', () => toggleMenu(nav, navSections, isDesktop.matches));
-
+  
+  const header = document.querySelector('header')
   const headerBlock = document.createElement('div');
   headerBlock.className = "header-block";
-  headerBlock.append(nav);
-  
+  headerBlock.append(header);
+
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
