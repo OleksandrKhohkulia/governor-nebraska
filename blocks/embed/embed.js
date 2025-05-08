@@ -77,13 +77,12 @@ const loadEmbed = (block, link, autoplay) => {
 
   const config = EMBEDS_CONFIG.find((e) => e.match.some((match) => link.includes(match)));
   const url = new URL(link);
-  console.log(block.classList.value)
   if (config) {
     block.innerHTML = config.embed(url, autoplay);
-    block.classList = `block embed embed-${config.match[0]}`;
+    block.classList += ` block embed embed-${config.match[0]}`;
   } else {
     block.innerHTML = getDefaultEmbed(url);
-    block.classList = 'block embed';
+    block.classList += ' block embed';
   }
   block.classList.add('embed-is-loaded');
 };
