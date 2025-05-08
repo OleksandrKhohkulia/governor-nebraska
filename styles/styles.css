@@ -309,6 +309,7 @@ main .section.highlight {
 
 .cabinet-list > div > div:first-of-type {
   border-right: 1px  solid #adadad;
+  max-width: 300px;
 }
 
 .cabinet-list > div:not(:last-of-type){
