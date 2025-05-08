@@ -258,4 +258,5 @@ main .section.highlight {
 
 main{
 display: flex;
+justify-content: space-around;
 }
