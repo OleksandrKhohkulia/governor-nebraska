@@ -256,7 +256,13 @@ main .section.highlight {
   padding: 40px 0;
 }
 
-main{
-display: flex;
-justify-content: space-around;
+@media (width >= 900px){
+  main{
+    display: flex;
+    justify-content: space-around;
+    }
+
+  .aside-governor-block img{
+    max-width: 260px;
+  }
 }
