@@ -78,6 +78,8 @@ body {
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
   line-height: 1.6;
+  background-image: url(/img/bg-cows.avif);
+  background-attachment: fixed;
 }
 
 body.appear {
