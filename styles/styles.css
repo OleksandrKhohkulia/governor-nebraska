@@ -269,7 +269,7 @@ main .section.highlight {
   gap: 10px;
 }
 
-#facebook-icon-facebook-posts{
+.aside-facebook-posts h2{
   display: flex;
   align-items: center;
 }
