@@ -277,14 +277,14 @@ header nav .nav-tools {
 @media (width >= 900px) {
   .header-sub-block{
     flex-direction: column;
+    height: 105px;
   }
 }
 
 .header-sub-block{
   display: flex;
   padding: 15px 15%;
-  align-items: center;
-  height: 105px;
+  align-items: center;    
   justify-content: space-between;
   background-color: #273748;
   }
