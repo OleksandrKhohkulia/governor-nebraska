@@ -385,4 +385,8 @@ main{
     width: 330px;
     height: 2091.080px;
   }
+  .embed.custom-embed.block.embed-is-loaded>div{
+    width: 100%;
+    height: 100%;
+  }
 }
