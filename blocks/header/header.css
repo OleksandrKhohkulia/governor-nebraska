@@ -149,6 +149,7 @@ header .nav-brand {
 header nav .nav-brand img {
   width: 50px;
   height: auto;
+  background-color: #333;
 }
 
 /* sections */
