@@ -304,13 +304,13 @@ header nav .nav-tools {
   }
 
   @media (width >= 900px) {
-    .header-logo{
-      height: 100% !important;
+    .header-logo-title{
+      height: 50% !important;
     }
   }
 
 .header-logo{
-  height: 50%;
+  height: 100%;
   padding-right: 10px;
 }
 
