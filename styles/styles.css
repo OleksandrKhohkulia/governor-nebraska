@@ -382,7 +382,7 @@ main{
   }
 
   .custom-embed{
-    width: 330px;
+    width: 330px !important;
     height: 2091.080px;
   }
 
