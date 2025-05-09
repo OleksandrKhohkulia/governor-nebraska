@@ -131,7 +131,7 @@ loadPage();
 
 // add bock above nav
 document.addEventListener('DOMContentLoaded', ()=>{
-  const headerContainer = document.querySelector('header > div');
+  const headerContainer = document.querySelector('header');
   console.log(headerContainer)
   const headerBlock = document.createElement('div')
   headerBlock.classList.add('header-sub-block')
