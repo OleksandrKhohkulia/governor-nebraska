@@ -278,13 +278,14 @@ header nav .nav-tools {
   .header-sub-block{
     height: 105px;
     flex-direction: row !important;
+    padding: 15px 15%;  
   }
 }
 
 .header-sub-block{
   flex-direction: column;
   display: flex;
-  padding: 15px auto;  
+  padding: 15px 5%;  
   align-items: center;    
   justify-content: space-between;
   background-color: #273748;
