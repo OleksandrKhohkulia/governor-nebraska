@@ -147,6 +147,6 @@ window.addEventListener('scroll', ()=>{
   }
   else{
     nav.style.position="unset"
-    nav.style.top='0'
+    nav.style.top=0
   }
 })
