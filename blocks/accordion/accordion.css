@@ -69,3 +69,9 @@
   background-color: rgba(255, 255, 255, 0.85);
   padding: 32px !important;
 }
+.accordion table {
+  border-collapse: collapse;
+}
+.accordion table, .accordion tr, .accordion td {
+  border: 1px solid #adadad;
+}
