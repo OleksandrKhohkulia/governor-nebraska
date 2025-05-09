@@ -147,7 +147,7 @@ window.addEventListener('scroll', ()=>{
       nav.style.position="fixed"    
     }  
     else if(scrollY > 250 && !isDesktop.matches){
-      console.log('LOL')
+      console.log(scrollY)
       nav.style.position="fixed" 
     }
     else{
