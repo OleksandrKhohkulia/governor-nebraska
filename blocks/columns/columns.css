@@ -22,7 +22,7 @@
 @media (width >= 900px) {
   .columns > div {
     align-items: center;
-    padding: 0 10%;
+    /* padding: 0 10%; */
   }
 
   .columns > div > div {
