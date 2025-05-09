@@ -140,6 +140,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 });
 
 window.addEventListener('scroll', ()=>{
+  console.log(scrollY)
   if(scrollY > 85){
     document.querySelector('nav').style.display="fixed"    
   }
