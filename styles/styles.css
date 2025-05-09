@@ -73,14 +73,12 @@
 body {
   display: none;
   margin: 0;
-  background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
   line-height: 1.6;
-  background-image: url(/img/bg-cows.avif);
-  background-size: cover;
-  background-attachment: fixed;
+  background: rgba(255,255,255,0.5) url(/img/bg-cows.avif) cover no-repeat fixed ;
+
 }
 
 body.appear {
