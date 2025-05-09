@@ -352,13 +352,11 @@ main .section.highlight {
 }
 
 .columns.ranks-column.block.columns-3-cols > div >div {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   border: 15px solid #3fb34f;
   border-radius: 100%;
   height: 210px;
-  height: 210px;
+  width: 210px;
   justify-content: space-evenly;
   padding: 30px;
   text-align: center;
