@@ -361,7 +361,7 @@ main .section.highlight {
   padding: 20px;
   text-align: center;
   background-color: white;
-  flex: auto;
+  flex: none;
 }
 
 .columns.ranks-column.block.columns-3-cols > div {
