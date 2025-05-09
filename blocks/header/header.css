@@ -276,9 +276,8 @@ header nav .nav-tools {
 
 @media (width >= 900px) {
   .header-sub-block{
-    height: 105px !important;
     flex-direction: row !important;
-    padding: 15px 15% !important;  
+    /* padding: 15px 15% !important;   */
   }
 }
 @media (width >= 1250px) {
@@ -288,6 +287,7 @@ header nav .nav-tools {
 }
 
 .header-sub-block{
+  height: 105px;
   flex-direction: column;
   display: flex;
   padding: 15px 5%;  
