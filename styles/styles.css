@@ -400,6 +400,6 @@ main{
   height: 1700px;
 }
 
-.embed-wrapper{
-  background-color: transparent;
+.section.embed-container>.embed-wrapper{
+  background-color: transparent !important;
 }
