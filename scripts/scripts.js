@@ -140,11 +140,13 @@ document.addEventListener('DOMContentLoaded', ()=>{
 });
 
 window.addEventListener('scroll', ()=>{
+  const nav = document.querySelector('.nav-wrapper')
   console.log(scrollY)
   if(scrollY > 150){
-    document.querySelector('.nav-wrapper').style.position="fixed"    
+    nav.style.position="fixed"    
   }
   else{
-    document.querySelector('.nav-wrapper').style.position="unset"
+    nav.style.position="unset"
+    nav.style.top='0'
   }
 })
