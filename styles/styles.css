@@ -375,3 +375,10 @@ main{
 .columns.ranks-column.block.columns-3-cols > div {
   justify-content: space-evenly;
 }
+
+@media (width >= 900px){
+  .section.columns-container{
+    flex: 1;
+    margin-right: 20px;
+  }
+}
