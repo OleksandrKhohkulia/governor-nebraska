@@ -276,7 +276,7 @@ header nav .nav-tools {
 
 @media (width >= 900px) {
   .header-sub-block{
-    height: 105px;
+    height: 105px !important;
     flex-direction: row !important;
     padding: 15px 15% !important;  
   }
@@ -289,6 +289,7 @@ header nav .nav-tools {
   align-items: center;    
   justify-content: space-between;
   background-color: #273748;
+  height: 150px;
   }
 
 .header-logo-title{
