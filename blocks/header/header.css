@@ -278,7 +278,7 @@ header nav .nav-tools {
   .header-sub-block{
     height: 105px;
     flex-direction: row !important;
-    padding: 15px 15%;  
+    padding: 15px 15% !important;  
   }
 }
 
