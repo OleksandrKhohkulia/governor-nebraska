@@ -337,3 +337,10 @@ main .section.highlight {
 .section.columns-container.embed-container>div:nth-of-type(4){
   padding-top: 0;
 }
+
+.footer.block .columns-wrapper {
+  background-color: transparent;  
+}
+.footer.block{
+  background-color: #1e1e1e;
+}
