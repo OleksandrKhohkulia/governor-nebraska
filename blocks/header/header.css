@@ -313,3 +313,7 @@ header nav .nav-tools {
 .header.block{
   height: var(--nav-height);
 }
+
+.section.columns-container.nav-brand > div{
+  background-color: transparent;
+}
