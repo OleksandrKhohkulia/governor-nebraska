@@ -291,6 +291,10 @@ main .section.highlight {
   width: 260px;
 }
 
+.aside-embed{
+  margin-left: 34vw;
+}
+
 
 main{
   max-width: 1248px;
