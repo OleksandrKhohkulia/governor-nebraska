@@ -277,7 +277,7 @@ header nav .nav-tools {
 
 .header-sub-block{
   display: flex;
-  padding: 15px 8%;
+  padding: 15px 15%;
   align-items: center;
   height: 105px;
   justify-content: space-between;
