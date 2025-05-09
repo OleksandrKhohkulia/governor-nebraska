@@ -390,3 +390,7 @@ main{
     height: 100%;
   }
 }
+
+.embed-wrapper{
+  background: none;
+}
