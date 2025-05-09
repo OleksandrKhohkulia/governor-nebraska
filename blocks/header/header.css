@@ -277,7 +277,7 @@ header nav .nav-tools {
 @media (width >= 900px) {
   .header-sub-block{
     height: 105px;
-    flex-direction: unset;
+    flex-direction: row !important;
   }
 }
 
