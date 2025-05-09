@@ -135,6 +135,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
   console.log(headerContainer)
   const headerBlock = document.createElement('div')
   headerBlock.classList.add('header-sub-block')
-  headerBlock.innerHTML =`<a href="/"><img src="../img/seal.avif" class="header-logo"><div class="header-title"><h1>Governor Jim Pillen</h1></div></a><div class="header-search"><input title=""  class="form-search form-control" placeholder="Search" type="search" id="edit-keys" name="keys"  size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for."><button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only"><img src="../img/search_icon.svg></button></div>`
+  headerBlock.innerHTML =`<a href="/" class="header-logo-title"><img src="../img/seal.avif" class="header-logo"><div class="header-title"><h3>Governor Jim Pillen</h3><h5>Office of the Governor</h5></div></a><div class="header-search"><input title=""  class="form-search form-control" placeholder="Search" type="search" id="edit-keys" name="keys"  size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for."><button type="submit" value="Search" class="header-search-button"><img src="../img/search_icon.svg></button></div>`
   headerContainer.append(headerBlock);
 });
