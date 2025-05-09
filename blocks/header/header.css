@@ -309,3 +309,7 @@ header nav .nav-tools {
   border-radius: 0 3px 3px 0;
   margin: 0;
 }
+
+.header.block{
+  height: var(--nav-height);
+}
