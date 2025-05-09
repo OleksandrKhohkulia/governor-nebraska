@@ -281,6 +281,11 @@ header nav .nav-tools {
     padding: 15px 15% !important;  
   }
 }
+@media (width >= 1250px) {
+  .header-sub-block{
+    padding: 15px 15% !important;  
+  }
+}
 
 .header-sub-block{
   flex-direction: column;
@@ -289,7 +294,7 @@ header nav .nav-tools {
   align-items: center;    
   justify-content: space-between;
   background-color: #273748;
-  height: 150px;
+  height: 220px;
   }
 
 .header-logo-title{
