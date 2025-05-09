@@ -132,6 +132,7 @@ loadPage();
 // add bock above nav
 document.addEventListener('DOMContentLoaded', ()=>{
   const headerContainer = document.querySelector('header > div');
+  console.log(headerContainer)
   const headerBlock = document.createElement('div')
   headerBlock.classList.add('header-sub-block')
   headerBlock.innerHTML =`<a href="/"><img src="../img/seal.avif" class="header-logo"><div class="header-title"><h1>Governor Jim Pillen</h1></div></a><div class="header-search"><input title=""  class="form-search form-control" placeholder="Search" type="search" id="edit-keys" name="keys"  size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for."><button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only"><img src="../img/search_icon.svg></button></div>`
