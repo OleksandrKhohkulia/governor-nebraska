@@ -393,7 +393,10 @@ main{
 }
 .section.columns-container{
   flex: 1;
-  width: 100%;
+}
+
+.embed.custom-embed.block.embed-is-loaded>div{
+  height: 1700px;
 }
 
 .embed-wrapper{
