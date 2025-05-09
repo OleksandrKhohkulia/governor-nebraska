@@ -80,6 +80,7 @@ body {
   background-image: url(/img/bg-cows.avif);
   background-size: cover;
   background-attachment: fixed;
+  background-color: rgba(255,255,255,0.5);
 
 }
 
@@ -251,9 +252,8 @@ main > .section:first-of-type {
   }
 }
 
-main{
-  background-color: rgba(255,255,255,0.5);
-}
+
+
 
 /* section metadata */
 main .section.light,
@@ -292,10 +292,14 @@ main .section.highlight {
 }
 
 
+main{
+  max-width: 1248px;
+  margin: auto;
+}
+
 @media (width >= 900px){
   main{
     display: flex;
-    justify-content: center;
     }
 
   .aside-governor-block img{
