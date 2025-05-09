@@ -141,10 +141,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 window.addEventListener('scroll', ()=>{
   console.log(scrollY)
-  if(scrollY > 85){
-    document.querySelector('nav').style.display="fixed"    
+  if(scrollY > 150){
+    document.querySelector('.nav-wrapper').style.position="fixed"    
   }
   else{
-    document.querySelector('nav').style.display="block"
+    document.querySelector('.nav-wrapper').style.position="unset"
   }
 })
