@@ -274,6 +274,11 @@ header nav .nav-tools {
   background-color: transparent !important;
 }
 
+@media (width >= 900px) {
+  .header-sub-block{
+    flex-direction: column;
+  }
+}
 
 .header-sub-block{
   display: flex;
