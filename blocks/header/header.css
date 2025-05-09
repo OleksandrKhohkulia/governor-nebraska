@@ -274,8 +274,3 @@ header nav .nav-tools {
   background-color: transparent !important;
 }
 
-.ranks-accordion summary>p{
-  display: flex;
-  align-items: center;
-  color: white;
-}
