@@ -142,23 +142,18 @@ document.addEventListener('DOMContentLoaded', ()=>{
 window.addEventListener('scroll', ()=>{
   const isDesktop = window.matchMedia('(min-width: 900px)');
   const nav = document.querySelector('.nav-wrapper')
-  if(isDesktop){
-    if(scrollY > 150){
+ 
+    if(scrollY > 150 && isDesktop.matches){
       nav.style.position="fixed"    
     }  
-    else{
-      nav.style.position="unset"
-      nav.style.top=0
-    }
-  }
-  else{
-    if(scrollY > 250){
+    else if(scrollY > 250 && !isDesktop.matches){
       nav.style.position="fixed" 
     }
     else{
       nav.style.position="unset"
       nav.style.top=0
-  }
-}
+    }
+  
+ 
 
 })
