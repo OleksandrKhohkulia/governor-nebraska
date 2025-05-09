@@ -140,9 +140,13 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 // sticky nav
 window.addEventListener('scroll', ()=>{
+  const isDesktop = window.matchMedia('(min-width: 900px)');
   const nav = document.querySelector('.nav-wrapper')
-  if(scrollY > 150){
+  if(scrollY > 150 && isDesktop){
     nav.style.position="fixed"    
+  }  
+  else if(scrollY > 250 && !isDesktop){
+    nav.style.position="fixed" 
   }
   else{
     nav.style.position="unset"
