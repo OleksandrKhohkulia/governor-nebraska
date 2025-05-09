@@ -139,6 +139,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   headerContainer.append(headerBlock);
 });
 
+// sticky nav
 window.addEventListener('scroll', ()=>{
   const nav = document.querySelector('.nav-wrapper')
   console.log(scrollY)
