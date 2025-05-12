@@ -159,6 +159,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-window.addEventListener('DOMContentLoaded',() =>{
-  console.log(document.body.querySelector('header>div:nth-last-child()'))
-})
+window.addEventListener("DOMContentLoaded", () => {
+  console.log(document.body.querySelectorAll("header>div"));
+});
