@@ -327,6 +327,10 @@ header nav .nav-tools {
   border-left:2px solid white ;
 }
 
+.header-title>h3{
+  margin-top: 0;
+}
+
 .header-search{
   display: flex;
 }
