@@ -146,14 +146,7 @@ window.addEventListener('scroll', ()=>{
  
     if((scrollY > 150 && isDesktop.matches) || (scrollY > 250 && !isDesktop.matches)){
       nav.style.position="fixed"   
-      nav.style.top = 0
     }  
-    else if(scrollY < 250 && !isDesktop.matches){
-      nav.style.top="250px" 
-    }
-    else if(scrollY < 150 && isDesktop.matches){
-      nav.style.top="150px"
-    }
     else{
       nav.style.position="unset"      
     }
