@@ -142,11 +142,11 @@ window.addEventListener('DOMContentLoaded',()=>{
   const isDesktop = window.matchMedia('(min-width: 900px)');
   const nav = document.querySelector('.nav-wrapper')
  
-  if((scrollY > 150 && isDesktop.matches) || (scrollY > 250 && !isDesktop.matches)){
-    nav.style.position="fixed"    
+  if(scrollY < 150 && isDesktop.matches){
+    nav.style.top="150px"    
   }
-  else{
-    nav.style.position="unset"      
+  else if(scrollY < 250 && !isDesktop.matches){
+    nav.style.top="250px"      
   }  
 })
 
@@ -156,7 +156,8 @@ window.addEventListener('scroll', ()=>{
   const nav = document.querySelector('.nav-wrapper')
  
     if((scrollY > 150 && isDesktop.matches) || (scrollY > 250 && !isDesktop.matches)){
-      nav.style.position="fixed"    
+      nav.style.position="fixed"   
+      nav.style.top = 0
     }  
     else{
       nav.style.position="unset"      
