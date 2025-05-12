@@ -407,3 +407,8 @@ main{
 .section.embed-container>.embed-wrapper{
   background-color: transparent !important;
 }
+
+.contact-governor-content >div >.columns-img-col img{
+  height: 35px;
+  width: 35px;
+}
