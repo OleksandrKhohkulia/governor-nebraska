@@ -133,7 +133,7 @@ async function loadPage() {
 
 loadPage();
 
-document.addEventListener('resize', () =>{
+document.addEventListener('loadeddata', () =>{
   console.log('S')
   const bodyHeight =window.getComputedStyle(document.body).getPropertyValue("height")
   bodyWrapper.style.height = bodyHeight;
