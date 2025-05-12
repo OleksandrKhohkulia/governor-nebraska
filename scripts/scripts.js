@@ -133,6 +133,12 @@ async function loadPage() {
 
 loadPage();
 
+document.body.addEventListener('change', () =>{
+  const bodyHeight =window.getComputedStyle(document.body).getPropertyValue("height")
+  bodyWrapper.style.height = bodyHeight;
+  document.body.append(bodyWrapper);  
+})
+
 // add bock above nav
 document.addEventListener("DOMContentLoaded", () => {
   const header = document.querySelector("header");
@@ -147,9 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
   headerContainer.append(headerBlock);
  
   setTimeout(() => {
-    const bodyHeight =window.getComputedStyle(document.body).getPropertyValue("height")
-    bodyWrapper.style.height = bodyHeight;
-    document.body.append(bodyWrapper);  
+
   }, 500);
 });
 
