@@ -3,10 +3,10 @@ header .nav-wrapper {
   background-color: #333;
   width: 100%;
   z-index: 2;
-  position: absolute;  
+  position: relative;  
 }
 
-@media (width < 900px) {
+/* @media (width < 900px) {
   header .nav-wrapper{
     top: 230px;
   }
@@ -16,7 +16,7 @@ header .nav-wrapper {
 header .nav-wrapper{
   top: 130px;
 }
-}
+} */
 
 header nav {
   box-sizing: border-box;
