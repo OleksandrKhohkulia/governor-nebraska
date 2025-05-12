@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   headerContainer.append(headerBlock);
 });
 
-window.addEventListener('DOMContentLoaded',()=>{
+window.addEventListener('load',()=>{
   const isDesktop = window.matchMedia('(min-width: 900px)');
   const nav = document.querySelector('.nav-wrapper')
  
