@@ -381,7 +381,7 @@ main{
   gap: 10px;
 }
 
-@media (width >= 1400px){
+@media (width <= 1400px){
   .columns.ranks-column.block.columns-3-cols > div{
     flex-wrap: wrap;
   }
