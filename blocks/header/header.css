@@ -4,7 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
-  top: 250px;
+  top: 130px;
 }
 
 
@@ -42,7 +42,7 @@ header nav[aria-expanded='true'] {
   }
 
   header .nav-wrapper{
-    top: 150px !important;
+    /* top: 150px !important; */
   }
 
   header nav[aria-expanded='true'] {
