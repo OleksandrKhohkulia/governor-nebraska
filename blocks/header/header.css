@@ -293,6 +293,9 @@ header nav .nav-tools {
 .header-container{
   height: 220px;
   width: 100%;
+  background-color: #273748;
+  display: flex;
+  justify-content: center;
 }
 
 .header-sub-block{
@@ -302,7 +305,8 @@ header nav .nav-tools {
   /* padding: 15px 5%;   */
   align-items: center;    
   justify-content: space-between;
-  background-color: #273748;
+  width: 100%;
+
   height: 100%;
   }
 
