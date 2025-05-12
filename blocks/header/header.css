@@ -296,6 +296,7 @@ header nav .nav-tools {
   justify-content: space-between;
   background-color: #273748;
   height: 220px;
+  max-width: 1200px;
   }
 
 .header-logo-title{
