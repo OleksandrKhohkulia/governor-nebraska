@@ -427,7 +427,7 @@ main{
   gap:10px
 }
 
-.press-contacts-content> div{
+.press-contacts-content> div > div{
   display: flex;
   flex-direction: column;
   align-items: center;
