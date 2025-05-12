@@ -412,6 +412,6 @@ main{
   height: 35px;
   
 }
-.contact-governor-content >div >.columns-img-col{
+.contact-governor-content >div >.columns-img-col, .contact-governor-content >div >.columns-img-col >p{
   width: 35px;
 }
