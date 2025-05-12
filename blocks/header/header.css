@@ -7,6 +7,11 @@ header .nav-wrapper {
   top: 130px;
 }
 
+@media (width >= 900px) {
+header .nav-wrapper{
+  top: 230px !important;
+}
+}
 
 header nav {
   box-sizing: border-box;
@@ -41,9 +46,6 @@ header nav[aria-expanded='true'] {
     padding: 0 32px;
   }
 
-  header .nav-wrapper{
-    /* top: 150px !important; */
-  }
 
   header nav[aria-expanded='true'] {
     min-height: 0;
