@@ -151,7 +151,6 @@ document.addEventListener("DOMContentLoaded", () => {
     bodyWrapper.style.height = bodyHeight;
     document.body.append(bodyWrapper);  
   }, 500);
-  isLoaded.addEventListener('')
 });
 
 // sticky nav
