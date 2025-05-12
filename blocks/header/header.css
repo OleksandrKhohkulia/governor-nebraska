@@ -6,18 +6,6 @@ header .nav-wrapper {
   position: relative;  
 }
 
-/* @media (width < 900px) {
-  header .nav-wrapper{
-    top: 230px;
-  }
-}
-
-@media (width >= 900px) {
-header .nav-wrapper{
-  top: 130px;
-}
-} */
-
 header nav {
   box-sizing: border-box;
   display: grid;
