@@ -378,6 +378,7 @@ main{
 
 .columns.ranks-column.block.columns-3-cols > div {
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 @media (width >= 900px){
