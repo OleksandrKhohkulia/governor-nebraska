@@ -285,11 +285,7 @@ header nav .nav-tools {
   }
 }
 
-@media (width >= 1510px) {
-  .header-sub-block{
-    justify-content: space-between;
-  }
-}
+
 .header-container{
   height: 220px;
   width: 100%;
@@ -303,7 +299,7 @@ header nav .nav-tools {
   flex-direction: column;
   display: flex;
   align-items: center;    
-  justify-content: space-evenly;
+  justify-content: space-between ;
   width: 100%;
   height: 100%;
   }
