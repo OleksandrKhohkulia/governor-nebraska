@@ -138,17 +138,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
   headerContainer.append(headerBlock);
 });
 
-window.addEventListener('load',()=>{
-  const isDesktop = window.matchMedia('(min-width: 900px)');
-  const nav = document.querySelector('.nav-wrapper')
- 
-  if(scrollY < 150 && isDesktop.matches){
-    nav.style.top="150px"    
-  }
-  else if(scrollY < 250 && !isDesktop.matches){
-    nav.style.top="250px"      
-  }  
-})
 
 // sticky nav
 window.addEventListener('scroll', ()=>{
@@ -159,6 +148,12 @@ window.addEventListener('scroll', ()=>{
       nav.style.position="fixed"   
       nav.style.top = 0
     }  
+    else if(scrollY < 150 && isDesktop.matches){
+      nav.style.top="150px"
+    }
+    else if(scrollY < 250 && !isDesktop.matches){
+      nav.style.top="250px" 
+    }
     else{
       nav.style.position="unset"      
     }
