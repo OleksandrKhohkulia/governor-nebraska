@@ -42,7 +42,7 @@ header nav[aria-expanded='true'] {
   }
 
   header .nav-wrapper{
-    top: 150px;
+    top: 150px !important;
   }
 
   header nav[aria-expanded='true'] {
