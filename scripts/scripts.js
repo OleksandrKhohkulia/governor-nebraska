@@ -135,12 +135,15 @@ loadPage();
 
 // add bock above nav
 document.addEventListener("DOMContentLoaded", () => {
-  const headerContainer = document.querySelector("header");
+  const header = document.querySelector("header");
+  const headerContainer =document.createElement('div')
   const headerBlock = document.createElement("div");
   const bodyWrapper = document.createElement("div");
+  headerContainer.classList.add('header-container')
   bodyWrapper.classList.add("body-wrapper");
   headerBlock.classList.add("header-sub-block");
   headerBlock.innerHTML = `<a href="/" class="header-logo-title"><img src="../img/seal.avif" class="header-logo"><div class="header-title"><h3>Governor Jim Pillen</h3><h5>Office of the Governor</h5></div></a><div class="header-search"><input title=""  class="form-search form-control" placeholder="Search" type="search" id="edit-keys" name="keys"  size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for."><button type="submit" value="Search" class="header-search-button"><img src="../img/search_icon.svg></button></div>`;
+  header.append(headerContainer);
   headerContainer.append(headerBlock);
   setTimeout(() => {
     const bodyHeight =window.getComputedStyle(document.body).getPropertyValue("height")

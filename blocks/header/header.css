@@ -277,26 +277,33 @@ header nav .nav-tools {
 
 @media (width >= 900px) {
   .header-sub-block{
-    flex-direction: row !important;
+    flex-direction: row !important;    
+  }
+
+  .header-container{
     height: 105px !important;
+  }
+}
+
+@media (width >= 1510px) {
+  .header-sub-block{
     /* padding: 15px 15% !important;   */
   }
 }
-@media (width >= 1510px) {
-  .header-sub-block{
-    padding: 15px 15% !important;  
-  }
+.header-container{
+  height: 220px;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .header-sub-block{
   flex-direction: column;
   display: flex;
-  padding: 15px 5%;  
+  /* padding: 15px 5%;   */
   align-items: center;    
   justify-content: space-between;
   background-color: #273748;
-  height: 220px;
-  max-width: 1200px;
+  height: 100%;
   }
 
 .header-logo-title{
