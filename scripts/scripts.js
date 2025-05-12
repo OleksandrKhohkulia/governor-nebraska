@@ -160,5 +160,5 @@ window.addEventListener("scroll", () => {
 });
 
 window.addEventListener('DOMContentLoaded',() =>{
-  console.log(document.body.querySelector('header>div:nth->div:nth-last-of-type()>div'))
+  console.log(document.body.querySelector('header'))
 })
