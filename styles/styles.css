@@ -409,9 +409,20 @@ main{
 }
 
 .contact-governor-content >div >.columns-img-col p{
-  height: 35px;
-  
+  height: 35px;  
 }
+
 .contact-governor-content >div >.columns-img-col, .contact-governor-content >div >.columns-img-col >p{
   width: 35px;
+}
+
+.contact-governor-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-governor-content >div {
+  display: flex;
+  gap:10px
 }
