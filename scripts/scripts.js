@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const bodyHeight =window.getComputedStyle(document.body).getPropertyValue("height")
     bodyWrapper.style.height = bodyHeight;
     document.body.append(bodyWrapper);    
-  }, 500);
+  }, 200);
 });
 
 // sticky nav
