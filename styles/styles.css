@@ -408,7 +408,7 @@ main{
   background-color: transparent !important;
 }
 
-.contact-governor-content >div >.columns-img-col img{
+.contact-governor-content >div >.columns-img-col p{
   height: 35px;
   width: 35px;
 }
