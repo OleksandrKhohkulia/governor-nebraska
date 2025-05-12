@@ -293,10 +293,10 @@ header nav .nav-tools {
 .header-container{
   height: 220px;
   width: 100%;
-  max-width: 1200px;
 }
 
 .header-sub-block{
+  max-width: 1200px;
   flex-direction: column;
   display: flex;
   /* padding: 15px 5%;   */
