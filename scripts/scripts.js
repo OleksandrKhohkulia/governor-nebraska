@@ -147,6 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
   headerContainer.append(headerBlock);
 
   const isLoaded = document.querySelector('.header-sub-block')
+  console.log(isLoaded)
   isLoaded.addEventListener('load',()=>{
     const bodyHeight =window.getComputedStyle(document.body).getPropertyValue("height")
     bodyWrapper.style.height = bodyHeight;
