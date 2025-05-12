@@ -158,3 +158,7 @@ window.addEventListener("scroll", () => {
     nav.style.top = "inherit";
   }
 });
+
+window.addEventListener('DOMContentLoaded',() =>{
+  console.log(document.body.querySelector('header>div:nth->div:nth-last-of-type()>div'))
+})
