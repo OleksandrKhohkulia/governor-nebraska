@@ -94,11 +94,11 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   // enable menu collapse on escape keypress
   if (!expanded || isDesktop.matches) {
     // collapse menu on escape press
-    window.addEventListener('keydown', closeOnEscape);
+    window.addEventListener('mouseover', closeOnEscape);
     // collapse menu on focus lost
     nav.addEventListener('focusout', closeOnFocusLost);
   } else {
-    window.removeEventListener('keydown', closeOnEscape);
+    window.removeEventListener('mouseover', closeOnEscape);
     nav.removeEventListener('focusout', closeOnFocusLost);
   }
 }
