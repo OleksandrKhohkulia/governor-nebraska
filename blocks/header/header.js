@@ -94,11 +94,11 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   // enable menu collapse on escape keypress
   if (!expanded || isDesktop.matches) {
     // collapse menu on escape press
-    window.addEventListener('mouseover', closeOnEscape);
+    window.addEventListener('keydown', closeOnEscape);
     // collapse menu on focus lost
     nav.addEventListener('focusout', closeOnFocusLost);
   } else {
-    window.removeEventListener('mouseover', closeOnEscape);
+    window.removeEventListener('keydown', closeOnEscape);
     nav.removeEventListener('focusout', closeOnFocusLost);
   }
 }
@@ -138,7 +138,7 @@ export default async function decorate(block) {
   if (navSections) {
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
       if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
-      navSection.addEventListener('click', () => {
+      navSection.addEventListener('mouseover', () => {
         if (isDesktop.matches) {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
           toggleAllNavSections(navSections);
