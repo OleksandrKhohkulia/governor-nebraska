@@ -138,7 +138,7 @@ header nav[aria-expanded='true'] .nav-hamburger-icon::after {
 
 /* brand */
 header .nav-brand {
-  display: flex;
+  display: none;
   align-items: center;
   grid-area: brand;
   flex-basis: 128px;
@@ -346,6 +346,3 @@ header nav .nav-tools {
   background-color: transparent;
 }
 
-.nav-brand{
-  visibility: hidden;
-}
