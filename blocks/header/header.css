@@ -290,6 +290,7 @@ header nav .nav-tools {
   background-color: #273748;
   display: flex;
   justify-content: center;
+  padding: 10px 0;
 }
 
 .header-sub-block{
