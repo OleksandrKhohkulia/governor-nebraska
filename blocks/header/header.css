@@ -345,3 +345,7 @@ header nav .nav-tools {
 .section.columns-container.nav-brand > div{
   background-color: transparent;
 }
+
+.nav-brand{
+  display: none;
+}
