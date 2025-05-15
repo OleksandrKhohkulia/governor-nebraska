@@ -347,5 +347,5 @@ header nav .nav-tools {
 }
 
 .nav-brand{
-  display: none;
+  visibility: hidden;
 }
