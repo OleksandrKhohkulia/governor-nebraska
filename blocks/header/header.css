@@ -201,6 +201,11 @@ header nav .nav-sections ul > li > ul > li {
     cursor: pointer;
   }
 
+  header nav .nav-sections .nav-drop > a{
+    margin: auto 1em !important;
+    padding: 0 !important;
+  }
+
   header nav .nav-sections .nav-drop::after {
     content: '';
     display: inline-block;
