@@ -203,6 +203,7 @@ header nav .nav-sections ul > li > ul > li {
     header nav .nav-sections .nav-drop a {
         margin: auto 1em !important;
         padding: 0 !important;
+        border-radius: 0 !important;
     }
 
     header nav .nav-sections .nav-drop::after {
