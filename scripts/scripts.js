@@ -138,7 +138,8 @@ window.setTimeout(() => {
   .getPropertyValue("height");
   console.log(bodyHeight)
   // bodyWrapper.style.height = bodyHeight;
-  document.body.main.append(bodyWrapper);
+  const main = document.querySelector('main')
+  main.append(bodyWrapper);
 }, 500);
 }
 
