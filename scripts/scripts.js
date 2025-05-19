@@ -133,6 +133,8 @@ async function loadPage() {
   .getComputedStyle(document.body)
   .getPropertyValue("height");
 console.log(bodyHeight)
+bodyWrapper.style.height = bodyHeight;
+document.body.append(bodyWrapper);
 
 }
 
@@ -151,13 +153,13 @@ document.addEventListener("DOMContentLoaded", () => {
   header.append(headerContainer);
   headerContainer.append(headerBlock);
 
-  setTimeout(() => {
-    const bodyHeight = window
-      .getComputedStyle(document.body)
-      .getPropertyValue("height");
-    bodyWrapper.style.height = bodyHeight;
-    document.body.append(bodyWrapper);
-  }, 500);
+  // setTimeout(() => {
+  //   const bodyHeight = window
+  //     .getComputedStyle(document.body)
+  //     .getPropertyValue("height");
+  //   bodyWrapper.style.height = bodyHeight;
+  //   document.body.append(bodyWrapper);
+  // }, 500);
 });
 
 // sticky nav
