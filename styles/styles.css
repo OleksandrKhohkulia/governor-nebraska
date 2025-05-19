@@ -338,6 +338,7 @@ main >.section.columns-container{
 .section.columns-container.embed-container{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 @media (width >= 1300px){
