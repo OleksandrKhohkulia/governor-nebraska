@@ -331,7 +331,7 @@ main{
 
 main >.section.columns-container{
   background-color: rgba(255, 255, 255, 0.85);
-
+  height: fit-content;
 }
 
 .section.columns-container.embed-container{
