@@ -464,6 +464,10 @@ main >.section.columns-container{
   background-color: rgba(255,255,255,0.5);
 }
 
-.section.fragment-container.columns-container.embed-container{
-  max-width: 300px;
+main > .section.fragment-container.columns-container.embed-container{
+  min-width: 300px;
+}
+
+main > .section.fragment-container.columns-container.embed-container > div{
+  width: unset;
 }
