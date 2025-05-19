@@ -142,14 +142,14 @@ export default async function decorate(block) {
         if (isDesktop.matches) {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
           toggleAllNavSections(navSections);
-          navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+          navSection.setAttribute('aria-expanded', expanded)
         }
       });
-        navSection.addEventListener('mouseleave', ()=>{
+      navSection.addEventListener('mouseleave', ()=>{
           if (isDesktop.matches) {
             const expanded = navSection.getAttribute('aria-expanded') === 'false';
             toggleAllNavSections(navSections);
-            navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+            navSection.setAttribute('aria-expanded', expanded );
         }
       });
     });
