@@ -110,6 +110,7 @@ async function loadLazy(doc) {
 
   loadHeader(doc.querySelector("header"));
   loadFooter(doc.querySelector("footer"));
+  console.log(document.style.height)
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
