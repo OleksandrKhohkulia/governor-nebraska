@@ -110,11 +110,7 @@ async function loadLazy(doc) {
 
   loadHeader(doc.querySelector("header"));
   loadFooter(doc.querySelector("footer"));
-  const bodyHeight = window
-      .getComputedStyle(document.body)
-      .getPropertyValue("height");
-  console.log(bodyHeight)
-
+ 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
 }
@@ -133,6 +129,11 @@ async function loadPage() {
   await loadEager(document);
   await loadLazy(document);
   loadDelayed();
+  const bodyHeight = window
+  .getComputedStyle(document.body)
+  .getPropertyValue("height");
+console.log(bodyHeight)
+
 }
 
 loadPage();
