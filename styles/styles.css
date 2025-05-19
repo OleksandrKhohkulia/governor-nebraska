@@ -466,6 +466,7 @@ main >.section.columns-container{
 
 main > .section.fragment-container.columns-container.embed-container{
   min-width: 300px;
+  margin-top: 20px;
 }
 
 main > .section.fragment-container.columns-container.embed-container > div{
