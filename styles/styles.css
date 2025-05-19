@@ -478,8 +478,13 @@ main > .section.fragment-container.columns-container.embed-container > div{
   background: none;
 }
 
+.agency-table h3, h5{
+  margin: auto;
+}
+
 .agency-table td{
   border: 1px solid #888888;
+  padding: 5px;
 }
 
 .agency-table table{
