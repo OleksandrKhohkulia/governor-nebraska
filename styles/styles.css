@@ -350,6 +350,7 @@ main >.section.columns-container{
 .section.columns-container.embed-container>div{
   width: 100%;
   padding: 10px;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .section.columns-container.embed-container>div:first-of-type{
@@ -468,6 +469,7 @@ main >.section.columns-container{
 main > .section.fragment-container.columns-container.embed-container{
   min-width: 300px;
   margin-top: 20px;
+  background-color: transparent;
 }
 
 main > .section.fragment-container.columns-container.embed-container > div{
