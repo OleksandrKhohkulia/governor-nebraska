@@ -145,7 +145,7 @@ export default async function decorate(block) {
           navSection.setAttribute('aria-expanded', expanded)
         }
       });
-      navSection.addEventListener('mouseleave', ()=>{
+      navSection.addEventListener('mouseout', ()=>{
           if (isDesktop.matches) {
             const expanded = navSection.getAttribute('aria-expanded') === 'false';
             toggleAllNavSections(navSections);
