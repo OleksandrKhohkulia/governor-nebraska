@@ -477,3 +477,12 @@ main > .section.fragment-container.columns-container.embed-container > div{
   width: unset;
   background: none;
 }
+
+.agency-table td{
+  border: 1px solid #888888;
+}
+
+.agency-table table{
+  border: 2px solid #888888;
+  border-collapse: collapse;
+}
