@@ -130,6 +130,7 @@ async function loadPage() {
   await loadLazy(document);
   loadDelayed();
 
+window.setTimeout(() => {
   const bodyWrapper = document.createElement("div");
   bodyWrapper.classList.add("body-wrapper");
   const bodyHeight = window
@@ -138,7 +139,7 @@ async function loadPage() {
   console.log(bodyHeight)
   bodyWrapper.style.height = bodyHeight;
   document.body.append(bodyWrapper);
-
+}, 1000);
 }
 
 loadPage();
