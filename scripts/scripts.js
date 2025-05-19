@@ -139,7 +139,7 @@ window.setTimeout(() => {
   console.log(bodyHeight)
   bodyWrapper.style.height = bodyHeight;
   document.body.append(bodyWrapper);
-}, 1000);
+}, 500);
 }
 
 loadPage();
