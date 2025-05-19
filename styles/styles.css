@@ -465,10 +465,10 @@ main >.section.columns-container{
 main > .section.fragment-container.columns-container.embed-container{
   min-width: 300px;
   margin-top: 20px;
-  background: transparent;
+  background: none;
 }
 
 main > .section.fragment-container.columns-container.embed-container > div{
   width: unset;
-  background: transparent;
+  background: none;
 }
