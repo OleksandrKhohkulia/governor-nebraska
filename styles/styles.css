@@ -397,6 +397,10 @@ main >.section.columns-container{
   gap: 10px;
 }
 
+.accordion.ranks-accordion.block tr>td:nth-of-type(3){
+  min-width: 100px;
+}
+
 @media (width >= 1400px){
   .columns.ranks-column.block.columns-3-cols > div{
     flex-wrap: nowrap;
