@@ -327,6 +327,11 @@ main{
 
 .cabinet-list > div:not(:last-of-type){
   border-bottom: 1px  solid #adadad;
+} 
+
+main >.section.columns-container{
+  background-color: rgba(255, 255, 255, 0.85);
+  min-width: 70%;
 }
 
 .section.columns-container.embed-container{
