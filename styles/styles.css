@@ -292,7 +292,7 @@ main .section.highlight {
 }
 
 .aside-embed{
-  margin-left: 34vw;
+  margin: 0 !important;
 }
 
 
