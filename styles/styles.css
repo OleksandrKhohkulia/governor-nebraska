@@ -331,7 +331,7 @@ main{
 
 @media (width >= 900px){
 main > div:first-of-type{
-  width: 30% !important;
+  max-width: 10%;
 }
 }
 
