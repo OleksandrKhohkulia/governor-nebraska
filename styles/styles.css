@@ -329,6 +329,12 @@ main{
   border-bottom: 1px  solid #adadad;
 } 
 
+@media (width >= 1300px){
+main > section.fragment-container.columns-container.embed-container{
+  width: 100%;
+}
+}
+
 main >.section.columns-container{
   background-color: rgba(255, 255, 255, 0.85);
   height: fit-content;
