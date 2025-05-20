@@ -391,6 +391,11 @@ main >.section.columns-container{
   flex: none;
 }
 
+.columns.ranks-column.block.columns-3-cols > div >div:hover{
+  transform: scale(1.1);
+  border-color: #888888;
+}
+
 .columns.ranks-column.block.columns-3-cols > div {
   justify-content: space-evenly;
   flex-wrap: wrap;
