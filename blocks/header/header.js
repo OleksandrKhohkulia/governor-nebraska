@@ -146,8 +146,8 @@ export default async function decorate(block) {
         }
       });
     });
-    // const navDropList = navSections.querySelectorAll('ul > *')
-    // console.log(navDropList)
+    const navDropList = navSections.querySelectorAll('ul > *')
+    console.log(navDropList)
   }
 
   // hamburger for mobile
