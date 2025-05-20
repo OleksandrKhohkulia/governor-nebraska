@@ -145,7 +145,7 @@ export default async function decorate(block) {
           navSection.setAttribute('aria-expanded', expanded)
         }
       });
-      const navDropMenu = document.querySelector(".nav-drop > ul")
+      const navDropMenu = document.querySelector(".nav-drop")
       navDropMenu.addEventListener('mouseout', ()=>{
           if (isDesktop.matches) {
             const expanded = navSection.getAttribute('aria-expanded') === 'false';
