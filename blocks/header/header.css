@@ -255,7 +255,7 @@ header nav .nav-sections ul > li > ul > li {
         width: 320px;
         top: 100%;
         padding: 16px;
-        background-color: var(--light-color);
+        background-color: #777;
         white-space: initial;
         z-index: 1;
     }
