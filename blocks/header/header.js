@@ -148,8 +148,9 @@ export default async function decorate(block) {
     });
     const navDropList = navSections.querySelectorAll('ul > .nav-drop > ul')
     navDropList.forEach((list) =>{
-      list.addEventListener('mouseleave', () => {
+      list.addEventListener('focusout', () => {
         if (isDesktop.matches) {
+
           console.log(list)
           const expanded = list.getAttribute('aria-expanded') === 'true';
           toggleAllNavSections(navSections);
