@@ -138,7 +138,7 @@ export default async function decorate(block) {
   if (navSections) {
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
       if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
-      navSection.addEventListener('mouseenter', () => {
+      navSection.addEventListener('focus', () => {
         if (isDesktop.matches) {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
           toggleAllNavSections(navSections);
@@ -146,17 +146,17 @@ export default async function decorate(block) {
         }
       });
     });
-    const navDropList = navSections.querySelectorAll('ul > .nav-drop > ul')
-    navDropList.forEach((list) =>{
-      list.addEventListener('focus', () => {
-        if (isDesktop.matches) {
-          console.log(list)
-          const expanded = list.getAttribute('aria-expanded') === 'true';
-          toggleAllNavSections(navSections);
-          list.setAttribute('aria-expanded', expanded ? 'false' : 'true')
-        }
-      });
-    })
+    // const navDropList = navSections.querySelectorAll('ul > .nav-drop > ul')
+    // navDropList.forEach((list) =>{
+    //   list.addEventListener('focus', () => {
+    //     if (isDesktop.matches) {
+    //       console.log(list)
+    //       const expanded = list.getAttribute('aria-expanded') === 'true';
+    //       toggleAllNavSections(navSections);
+    //       list.setAttribute('aria-expanded', expanded ? 'false' : 'true')
+    //     }
+    //   });
+    // })
   }
 
   // hamburger for mobile
