@@ -142,7 +142,7 @@ export default async function decorate(block) {
         if (isDesktop.matches) {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
           toggleAllNavSections(navSections);
-          navSection.setAttribute('aria-expanded', expanded ? 'true' : 'false')
+          navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true')
         }
       });
     });
