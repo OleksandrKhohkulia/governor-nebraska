@@ -147,10 +147,10 @@ export default async function decorate(block) {
       });
     });
     const navDropList = navSections.querySelectorAll('ul > .nav-drop > ul')
-    console.log(navDropList)
     navDropList.forEach((list) =>{
       list.addEventListener('mouseout', () => {
         if (isDesktop.matches) {
+          console.log(list)
           const expanded = list.getAttribute('aria-expanded') === 'false';
           toggleAllNavSections(navSections);
           list.setAttribute('aria-expanded', expanded ? 'false' : 'true')
