@@ -145,9 +145,9 @@ export default async function decorate(block) {
           navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true')
         }
       });
-      const navDropList = navSection.querySelectorAll('ul > *')
-      console.log(navDropList)
     });
+    const navDropList = navSection.querySelectorAll('ul > *')
+    console.log(navDropList)
   }
 
   // hamburger for mobile
