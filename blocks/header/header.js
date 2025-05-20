@@ -146,7 +146,7 @@ export default async function decorate(block) {
         }
       });
     });
-    const navDropList = navSection.querySelectorAll('ul > *')
+    const navDropList = navSections.querySelectorAll('ul > *')
     console.log(navDropList)
   }
 
