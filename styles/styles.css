@@ -10,7 +10,11 @@
  * governing permissions and limitations under the License.
  */
 
- @import url(/styles/fonts.css);
+ /* @font-face {
+  font-family: Montserrat;
+  src: url();
+ } */
+
 
 :root {
   /* colors */
