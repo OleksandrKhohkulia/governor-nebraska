@@ -389,10 +389,11 @@ main >.section.columns-container{
   text-align: center;
   background-color: white;
   flex: none;
+  transition: transform 2ms;
 }
 
 .columns.ranks-column.block.columns-3-cols > div >div:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
   border-color: #888888;
 }
 
