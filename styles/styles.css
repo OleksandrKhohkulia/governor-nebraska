@@ -329,11 +329,11 @@ main{
   border-bottom: 1px  solid #adadad;
 } 
 
-@media (width >= 1300px){
+/* @media (width >= 1300px){
 main > section.fragment-container.columns-container.embed-container{
   width: 100%;
 }
-}
+} */
 
 main >.section.columns-container{
   background-color: rgba(255, 255, 255, 0.85);
@@ -341,11 +341,11 @@ main >.section.columns-container{
   padding-bottom: 20px;
 }
 
-.section.columns-container.embed-container{
+/* .section.columns-container.embed-container{
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 @media (width >= 1300px){
   main >.section.columns-container{
