@@ -330,8 +330,8 @@ main{
 } 
 
 @media (width >= 900px){
-main > section.fragment-container.columns-container.embed-container{
-  width: 100%;
+main > div:first-of-type{
+  width: 30%;
 }
 }
 
