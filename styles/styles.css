@@ -389,7 +389,7 @@ main >.section.columns-container{
   text-align: center;
   background-color: white;
   flex: none;
-  transition: transform 1s;
+  transition: transform 0.7s;
 }
 
 .columns.ranks-column.block.columns-3-cols > div >div:hover{
