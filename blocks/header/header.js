@@ -151,7 +151,7 @@ export default async function decorate(block) {
       list.addEventListener('mouseout', () => {
         if (isDesktop.matches) {
           console.log(list)
-          const expanded = list.getAttribute('aria-expanded') === 'false';
+          const expanded = list.getAttribute('aria-expanded') === 'true';
           toggleAllNavSections(navSections);
           list.setAttribute('aria-expanded', expanded ? 'false' : 'true')
         }
