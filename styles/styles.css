@@ -89,12 +89,12 @@ body.appear {
 }
 
 header {
-  height: 250px; 
+  height: 325px; 
 }
 
 @media (width >= 900px){
   header {
-    height: 195px; 
+    height: 210px; 
   }
 }
 
