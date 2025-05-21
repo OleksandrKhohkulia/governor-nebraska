@@ -88,9 +88,15 @@ body.appear {
   display: block;
 }
 
-/* header {
+header {
   height: var(--nav-height); 
-} */
+}
+
+@media (width >= 1149px){
+  header {
+    height: 250px; 
+  }
+}
 
 header .header,
 footer .footer {
