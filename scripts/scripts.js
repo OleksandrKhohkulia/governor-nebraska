@@ -134,43 +134,43 @@ async function loadPage() {
 
 loadPage();
 
-// add bock above nav
-document.addEventListener("DOMContentLoaded", () => {
-  const header = document.querySelector("header");
-  const headerContainer = document.createElement("div");
-  const headerBlock = document.createElement("div");
-  headerContainer.classList.add("header-container");
-  headerBlock.classList.add("header-sub-block");
-  headerBlock.innerHTML = `<a href="/" class="header-logo-title"><img src="../img/seal.avif" class="header-logo"><div class="header-title"><h3>Governor Jim Pillen</h3><h5>Office of the Governor</h5></div></a><div class="header-search"><input title=""  class="form-search form-control" placeholder="Search" type="search" id="edit-keys" name="keys"  size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for."><button type="submit" value="Search" class="header-search-button"><img src="../img/search_icon.svg></button></div>`;
-  header.append(headerContainer);
-  headerContainer.append(headerBlock);
+// // add bock above nav
+// document.addEventListener("DOMContentLoaded", () => {
+//   const header = document.querySelector("header");
+//   const headerContainer = document.createElement("div");
+//   const headerBlock = document.createElement("div");
+//   headerContainer.classList.add("header-container");
+//   headerBlock.classList.add("header-sub-block");
+//   headerBlock.innerHTML = `<a href="/" class="header-logo-title"><img src="../img/seal.avif" class="header-logo"><div class="header-title"><h3>Governor Jim Pillen</h3><h5>Office of the Governor</h5></div></a><div class="header-search"><input title=""  class="form-search form-control" placeholder="Search" type="search" id="edit-keys" name="keys"  size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for."><button type="submit" value="Search" class="header-search-button"><img src="../img/search_icon.svg></button></div>`;
+//   header.append(headerContainer);
+//   headerContainer.append(headerBlock);
 
-  window.setTimeout(() => {
-    const bodyWrapper = document.createElement("div");
-    bodyWrapper.classList.add("body-wrapper");
-    const bodyHeight = window
-    .getComputedStyle(document.body)
-    .getPropertyValue("height");
-    console.log(bodyHeight)
-    bodyWrapper.style.height = bodyHeight;
-    document.body.append(bodyWrapper);
-  }, 500);
-  
-});
+//   window.setTimeout(() => {
+//     const bodyWrapper = document.createElement("div");
+//     bodyWrapper.classList.add("body-wrapper");
+//     const bodyHeight = window
+//     .getComputedStyle(document.body)
+//     .getPropertyValue("height");
+//     console.log(bodyHeight)
+//     bodyWrapper.style.height = bodyHeight;
+//     document.body.append(bodyWrapper);
+//   }, 500);
 
-// sticky nav
-window.addEventListener("scroll", () => {
-  const isDesktop = window.matchMedia("(min-width: 900px)");
-  const nav = document.querySelector(".nav-wrapper");
+// });
 
-  if (
-    (scrollY > 150 && isDesktop.matches) ||
-    (scrollY > 250 && !isDesktop.matches)
-  ) {
-    nav.style.position = "fixed";
-    nav.style.top = 0;
-  } else {
-    nav.style.position = "unset";
-    nav.style.top = "inherit";
-  }
-});
+// // sticky nav
+// window.addEventListener("scroll", () => {
+//   const isDesktop = window.matchMedia("(min-width: 900px)");
+//   const nav = document.querySelector(".nav-wrapper");
+
+//   if (
+//     (scrollY > 150 && isDesktop.matches) ||
+//     (scrollY > 250 && !isDesktop.matches)
+//   ) {
+//     nav.style.position = "fixed";
+//     nav.style.top = 0;
+//   } else {
+//     nav.style.position = "unset";
+//     nav.style.top = "inherit";
+//   }
+// });
