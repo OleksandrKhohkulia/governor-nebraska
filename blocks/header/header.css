@@ -46,7 +46,7 @@ header nav[aria-expanded="true"] {
 }
 
 header nav[aria-expanded="true"] > .section.nav-sections ul{
-    color: #777;    
+    color: #9c9c9c;    
     margin-left: 20px;
 
 }
