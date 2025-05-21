@@ -52,7 +52,7 @@ header nav[aria-expanded="true"] {
     }    
 }
 header nav[aria-expanded="true"] > .section.nav-sections ul{
-    color: #9c9c9c;    
+    color: #c2c2c2;    
     margin-left: 20px;
 
 }
