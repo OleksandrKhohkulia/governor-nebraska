@@ -45,8 +45,8 @@ header nav[aria-expanded="true"] {
     }
 }
 
-header nav[aria-expanded="true"] > .section.nav-sections{
-    background-color: #777;
+header nav[aria-expanded="true"] > .section.nav-sections li{
+    color: #777;    
 }
 
 header nav p {
