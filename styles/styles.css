@@ -354,7 +354,7 @@ main >.section.columns-container{
 }
 
 .section.columns-container.embed-container>div{
-  width: 100%;
+  /* width: 100%; */
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.85);
 }
@@ -485,7 +485,7 @@ main > .section.fragment-container.columns-container.embed-container{
 }
 
 main > .section.fragment-container.columns-container.embed-container > div{
-  width: unset;
+  /* width: unset; */
   background: none;
 }
 
