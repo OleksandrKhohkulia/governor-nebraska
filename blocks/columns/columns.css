@@ -9,6 +9,7 @@
 
 .columns > div > div {
   order: 1;
+  max-width: 100%;
 }
 
 .columns > div > .columns-img-col {
@@ -28,5 +29,6 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+    max-width: unset;
   }
 }
