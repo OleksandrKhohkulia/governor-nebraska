@@ -75,13 +75,19 @@ body {
   margin: 0;
   color: var(--text-color);
   font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
+  font-size: var(--body-font-size-s);
   line-height: 1.6;
   background-image: url(/img/bg-cows.avif);
   background-size: cover;
   background-attachment: fixed;
   background-color: rgba(255,255,255,0.5);
 
+}
+
+@media (width >= 900) {
+  body {
+    font-size: var(--body-font-size-m);  
+  }
 }
 
 body.appear {
