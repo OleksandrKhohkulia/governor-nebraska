@@ -18,3 +18,7 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+
+.columns.custom-footer.block.columns-2-cols >div{
+  flex-wrap: wrap;
+}
