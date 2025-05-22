@@ -510,3 +510,8 @@ main > .section.fragment-container.columns-container.embed-container > div{
 .button-container{
   max-width: 100%;
 }
+
+.residence-table tr{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
