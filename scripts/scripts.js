@@ -150,19 +150,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-// // sticky nav
-// window.addEventListener("scroll", () => {
-//   const isDesktop = window.matchMedia("(min-width: 900px)");
-//   const nav = document.querySelector(".nav-wrapper");
+// sticky nav
+window.addEventListener("scroll", () => {
+  const isDesktop = window.matchMedia("(min-width: 900px)");
+  const nav = document.querySelector(".nav-wrapper");
 
-//   if (
-//     (scrollY > 150 && isDesktop.matches) ||
-//     (scrollY > 250 && !isDesktop.matches)
-//   ) {
-//     nav.style.position = "fixed";
-//     nav.style.top = 0;
-//   } else {
-//     nav.style.position = "unset";
-//     nav.style.top = "inherit";
-//   }
-// });
+  if (
+    (scrollY > 150 && isDesktop.matches) ||
+    (scrollY > 250 && !isDesktop.matches)
+  ) {
+    nav.style.position = "fixed";
+    nav.style.top = 0;
+  } else {
+    nav.style.position = "unset";
+    nav.style.top = "inherit";
+  }
+});
