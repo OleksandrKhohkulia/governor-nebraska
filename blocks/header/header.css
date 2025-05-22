@@ -3,7 +3,8 @@ header .nav-wrapper {
     background-color: #333;
     width: 100%;
     z-index: 2;
-    position: relative;
+    /* position: relative; */
+    position: sticky;
 }
 
 header nav {
