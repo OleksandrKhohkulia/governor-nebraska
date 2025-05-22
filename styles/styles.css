@@ -276,6 +276,11 @@ main .section.highlight {
   align-items: center;
 }
 
+.columns.aside-social-media.block.columns-1-cols >div{
+  justify-content: center;
+}
+
+
 .aside-social-media .columns-img-col>p{
   display: flex;
   justify-content: center;

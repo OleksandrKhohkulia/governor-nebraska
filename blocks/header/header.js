@@ -172,7 +172,7 @@ export default async function decorate(block) {
   toggleMenu(nav, navSections, isDesktop.matches);
   isDesktop.addEventListener('change', () => toggleMenu(nav, navSections, isDesktop.matches));
   
-  // const header = document.querySelector("header");
+  // nav sub-block added
   const headerContainer = document.createElement("div");
   const headerBlock = document.createElement("div");
   headerContainer.classList.add("header-container");
