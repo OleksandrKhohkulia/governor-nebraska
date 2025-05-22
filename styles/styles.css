@@ -521,3 +521,7 @@ main > .section.fragment-container.columns-container.embed-container > div{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
+.property-tax-plan >  div > div{
+  max-width: 100%;
+}
