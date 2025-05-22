@@ -128,9 +128,6 @@ h6 {
   scroll-margin: 40px;
 }
 
-@media (width >= 900px) {
-  h1 { font-size: var(--heading-font-size-xxl); }
-}
 
 h1 { font-size: var(--heading-font-size-xl); }
 h2 { font-size: var(--heading-font-size-xl); }
@@ -139,6 +136,9 @@ h4 { font-size: var(--heading-font-size-m); }
 h5 { font-size: var(--heading-font-size-s); }
 h6 { font-size: var(--heading-font-size-xs); }
 
+@media (width >= 900px) {
+  h1 { font-size: var(--heading-font-size-xxl); }
+}
 
 
 p,
