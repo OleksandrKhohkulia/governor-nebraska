@@ -84,7 +84,7 @@ body {
 
 }
 
-@media (width >= 900) {
+@media (width >= 900px) {
   body {
     font-size: var(--body-font-size-m);  
   }
