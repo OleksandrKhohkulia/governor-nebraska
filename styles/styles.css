@@ -506,3 +506,7 @@ main > .section.fragment-container.columns-container.embed-container > div{
   border: 2px solid #888888;
   border-collapse: collapse;
 }
+
+.button-container{
+  max-width: 100%;
+}
