@@ -135,7 +135,7 @@ export default async function decorate(block) {
   }
 
   //===================================================================
-  function navDropList(navSection){
+  function navDropOnHover(navSection){
     if (isDesktop.matches) {
       const expanded = navSection.getAttribute('aria-expanded') === 'true';
       toggleAllNavSections(navSections);
@@ -148,24 +148,12 @@ export default async function decorate(block) {
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
       if (navSection.querySelector('ul')) navSection.classList.add('nav-drop')
       navSection.addEventListener('mouseenter', () => {
-        navDropList(navSection)
+        navDropOnHover(navSection)
       });
       navSection.addEventListener('mouseleave', () => {
-        navDropList(navSection)
+        navDropOnHover(navSection)
       });
     });
-
-    // const navDropList = navSections.querySelectorAll('ul > .nav-drop > ul')
-    // navDropList.forEach((list) =>{
-    //   list.addEventListener('focusin', () => {
-    //     if (isDesktop.matches) {
-    //       console.log(list)
-    //       const expanded = list.getAttribute('aria-expanded') === 'true';
-    //       toggleAllNavSections(navSections);
-    //       list.setAttribute('aria-expanded', expanded ? 'false' : 'true')
-    //     }
-    //   });
-    // })
   }
 
   // hamburger for mobile
