@@ -135,9 +135,9 @@ async function loadPage() {
 loadPage();
 
 // add body wrapper
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("resize", () => {
 
-  window.setTimeout(() => {
+  // window.setTimeout(() => {
     const bodyWrapper = document.createElement("div");
     bodyWrapper.classList.add("body-wrapper");
     const bodyHeight = window
@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(bodyHeight)
     bodyWrapper.style.height = bodyHeight;
     document.body.append(bodyWrapper);
-  }, 500);
+  // }, 500);
 
 });
 
