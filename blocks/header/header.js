@@ -146,17 +146,17 @@ export default async function decorate(block) {
         }
       });
     });
-    const navDropList = navSections.querySelectorAll('ul > .nav-drop > ul')
-    navDropList.forEach((list) =>{
-      list.addEventListener('focusin', () => {
-        if (isDesktop.matches) {
-          console.log(list)
-          const expanded = list.getAttribute('aria-expanded') === 'true';
-          toggleAllNavSections(navSections);
-          list.setAttribute('aria-expanded', expanded ? 'false' : 'true')
-        }
-      });
-    })
+    // const navDropList = navSections.querySelectorAll('ul > .nav-drop > ul')
+    // navDropList.forEach((list) =>{
+    //   list.addEventListener('focusin', () => {
+    //     if (isDesktop.matches) {
+    //       console.log(list)
+    //       const expanded = list.getAttribute('aria-expanded') === 'true';
+    //       toggleAllNavSections(navSections);
+    //       list.setAttribute('aria-expanded', expanded ? 'false' : 'true')
+    //     }
+    //   });
+    // })
   }
 
   // hamburger for mobile
