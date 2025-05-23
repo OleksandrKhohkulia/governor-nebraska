@@ -154,7 +154,6 @@ export default async function decorate(block) {
         navDropList(navSection)
       });
     });
-  };
 
     // const navDropList = navSections.querySelectorAll('ul > .nav-drop > ul')
     // navDropList.forEach((list) =>{
