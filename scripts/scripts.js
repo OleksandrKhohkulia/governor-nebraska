@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 })
 
 // add body wrapper
-window.addEventListener("resize", () => {
+document.body.addEventListener("resize", () => {
   // window.setTimeout(() => {
     const bodyHeight = window
     .getComputedStyle(document.body)
