@@ -135,7 +135,7 @@ async function loadPage() {
 loadPage();
 
 // add body wrapper
-document.addEventListener("resize", () => {
+window.addEventListener("resize", () => {
 
   // window.setTimeout(() => {
     const bodyWrapper = document.createElement("div");
