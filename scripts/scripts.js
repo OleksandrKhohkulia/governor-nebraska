@@ -136,26 +136,26 @@ loadPage();
 
 
 document.addEventListener("DOMContentLoaded", ()=>{
-    window.setTimeout(() => {
+    // window.setTimeout(() => {
       const bodyWrapper = document.createElement("div");
       bodyWrapper.classList.add("body-wrapper");
-      const bodyHeight = window
-      .getComputedStyle(document.body)
-      .getPropertyValue("height");
-      console.log(bodyHeight)
-      bodyWrapper.style.height = bodyHeight;
+      // const bodyHeight = window
+      // .getComputedStyle(document.body)
+      // .getPropertyValue("height");
+      // console.log(bodyHeight)
+      // bodyWrapper.style.height = bodyHeight;
       document.body.append(bodyWrapper);
-    }, 500);
+    // }, 500);
 })
 
 // add body wrapper
 document.body.addEventListener("change", () => {
   // window.setTimeout(() => {
     const bodyHeight = window
-    .getComputedStyle(document.body)
-    .getPropertyValue("height");
-    console.log(bodyHeight)
-    bodyWrapper.style.height = bodyHeight;
+    // .getComputedStyle(document.body)
+    // .getPropertyValue("height");
+    // console.log(bodyHeight)
+    // bodyWrapper.style.height = bodyHeight;
   // }, 500);
 
 });
