@@ -134,18 +134,28 @@ async function loadPage() {
 
 loadPage();
 
+
+document.addEventListener("DOMContentLoaded", ()=>{
+    window.setTimeout(() => {
+      const bodyWrapper = document.createElement("div");
+      bodyWrapper.classList.add("body-wrapper");
+      const bodyHeight = window
+      .getComputedStyle(document.body)
+      .getPropertyValue("height");
+      console.log(bodyHeight)
+      bodyWrapper.style.height = bodyHeight;
+      document.body.append(bodyWrapper);
+    }, 500);
+})
+
 // add body wrapper
 window.addEventListener("resize", () => {
-
   // window.setTimeout(() => {
-    const bodyWrapper = document.createElement("div");
-    bodyWrapper.classList.add("body-wrapper");
     const bodyHeight = window
     .getComputedStyle(document.body)
     .getPropertyValue("height");
     console.log(bodyHeight)
     bodyWrapper.style.height = bodyHeight;
-    document.body.append(bodyWrapper);
   // }, 500);
 
 });
