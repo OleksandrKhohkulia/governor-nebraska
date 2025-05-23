@@ -134,18 +134,28 @@ export default async function decorate(block) {
     brandLink.closest('.button-container').className = '';
   }
 
+  //===================================================================
+  function navDropList(navSection){
+    if (isDesktop.matches) {
+      const expanded = navSection.getAttribute('aria-expanded') === 'true';
+      toggleAllNavSections(navSections);
+      navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true')
+    }
+  }
+
   const navSections = nav.querySelector('.nav-sections');
   if (navSections) {
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
-      if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
-      navSection.addEventListener('mouseover', () => {
-        if (isDesktop.matches) {
-          const expanded = navSection.getAttribute('aria-expanded') === 'true';
-          toggleAllNavSections(navSections);
-          navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true')
-        }
+      if (navSection.querySelector('ul')) navSection.classList.add('nav-drop')
+      navSection.addEventListener('mouseenter', () => {
+        navDropList(navSection)
+      });
+      navSection.addEventListener('mouseleave', () => {
+        navDropList(navSection)
       });
     });
+  };
+
     // const navDropList = navSections.querySelectorAll('ul > .nav-drop > ul')
     // navDropList.forEach((list) =>{
     //   list.addEventListener('focusin', () => {
