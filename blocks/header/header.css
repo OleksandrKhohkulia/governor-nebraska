@@ -93,6 +93,7 @@ header nav .nav-hamburger-icon::after {
     display: block;
     position: relative;
     width: 20px;
+    background: white;
 }
 
 header nav .nav-hamburger-icon::before,
@@ -107,7 +108,6 @@ header nav[aria-expanded="false"] .nav-hamburger-icon::before,
 header nav[aria-expanded="false"] .nav-hamburger-icon::after {
     height: 2px;
     border-radius: 2px;
-    background: white;
 }
 
 header nav[aria-expanded="false"] .nav-hamburger-icon::before {
