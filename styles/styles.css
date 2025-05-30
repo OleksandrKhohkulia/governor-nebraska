@@ -437,6 +437,7 @@ main >.section.columns-container{
 }
 .accordion.ranks-accordion.block .accordion-item-body{
   overflow-x: auto;
+  padding: 0;
 }
 
 @media (width >= 1400px){
