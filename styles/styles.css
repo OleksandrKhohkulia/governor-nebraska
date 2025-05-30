@@ -537,3 +537,7 @@ main > .section.fragment-container.columns-container.embed-container > div{
 .property-tax-plan >  div > div{
   max-width: 100%;
 }
+
+main.error> div{
+  max-width: 60%;
+} 
