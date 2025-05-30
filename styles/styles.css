@@ -539,5 +539,5 @@ main > .section.fragment-container.columns-container.embed-container > div{
 }
 
 main.error> div{
-  max-width: 60%;
+  max-width: 100%;
 } 
